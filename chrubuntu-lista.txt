@@ -1,0 +1,2 @@
+- Kernel 4.0 verkar funka utan problem, suspend kan behövas fixas.
+- xmodmap -e "keycode 225 = Super_L" /* Sökknappen är Super_L
