@@ -7,3 +7,5 @@
 * Fix sleep
 * Fix touchpad after my own preferences
 * Fix keybinds after my own preferences
+
+Based on instructions from: https://wiki.archlinux.org/index.php/Chrome_OS_devices#Fixing_suspend
