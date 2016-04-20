@@ -1,1 +1,5 @@
 keycode 225 = Super_L
+add Mod4 = Super_L
+keycode 166 = F1
+keycode 167 = F2
+keycode 181 = F3

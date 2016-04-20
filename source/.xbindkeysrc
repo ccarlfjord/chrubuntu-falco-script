@@ -1,10 +1,10 @@
 "xdotool keyup shift+BackSpace; xdotool key Delete; xdotool keydown shift"
 shift+BackSpace
-"xdotool keyup alt+XF86Back; xdotool key F1; xdotool keydown alt"
+"xdotool keyup alt+F1; xdotool key XF86Back; xdotool keydown alt"
 alt+XF86Back
-"xdotool keyup alt+XF86Forward; xdotool key F2; xdotool keydown alt"
+"xdotool keyup alt+F2; xdotool key XF86Forward; xdotool keydown alt"
 alt+XF86Forward
-"xdotool keyup alt+XF86Reload; xdotool key F3; xdotool keydown alt"
+"xdotool keyup alt+F3; xdotool key XF86Reload; xdotool keydown alt"
 alt+XF86Reload
 "xdotool keyup alt+F4; xdotool key F11; xdotool keydown alt"
 alt+F4
