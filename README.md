@@ -1,14 +1,16 @@
-# v0.1 Released, touchpad fix not yet included see [Fix touchpad](#1)
+# v0.1 Released, touchpad fix not yet included see [Fix touchpad](#fix-touchpad)
 
-## Automatic script to fix annoyances when reinstalling an Ubuntu based distribution on a HP Chromebook 14 "Falco"
-### Can probably be used on a live-cd
-### This script will:
+Automatic script to fix annoyances when reinstalling an Ubuntu based distribution on a HP Chromebook 14 "Falco"
 
-* Fix sleep
-* (Not Yet) Fix touchpad after my own preferences
-* Fix keybinds after my own preferences
+Can probably be used on a live-cd
 
-[1]
+### What does this script do?
+
+* Fixes sleep
+* (Not Yet) Fixes touchpad after my own preferences
+* Fixes keybinds after my own preferences
+
+### Fix touchpad
   In /usr/share/X11/xorg.conf.d/50-synaptics.conf under:
 
     Section "InputClass"
