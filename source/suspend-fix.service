@@ -1,0 +1,9 @@
+[Unit]
+Description=Suspend Fix
+
+[Service]
+Type=simple
+ExecStart=/usr/local/sbin/suspend-device-fix.sh
+
+[Install]
+WantedBy=multi-user.target
