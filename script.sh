@@ -16,7 +16,7 @@ then
   sudo update-initramfs -k all -u &&
   sudo cp /etc/default/grub /etc/default/grub.bak; printf "Creating backup of grub file to /etc/default/grub.bak...\n" &&
   sudo cp $SOURCE/grub /etc/default/grub; printf "Copying new grub file...\n" &&
-  sudo update-grub &&:
+  sudo update-grub
 else
   printf "xbindkeys not installed, installing...\n"; sudo apt-get install xbindkeys && $BASE_DIR/script.sh
 fi
