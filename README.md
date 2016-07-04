@@ -1,4 +1,4 @@
-# v0.1 Released, touchpad fix not yet included see [Fix touchpad](#fix-touchpad)
+# v0.1, touchpad fix not yet included see [Fix touchpad](#fix-touchpad)
 
 Automatic script to fix annoyances when reinstalling an Ubuntu based distribution on a HP Chromebook 14 "Falco"
 
