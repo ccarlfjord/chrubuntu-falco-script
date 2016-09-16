@@ -1,0 +1,3 @@
+# Chromebook 14 fix
+evdev:atkbd:dmi:bvn*:bvr*:bd*:svnHewlett-Packard*:pnFalco:pvr*
+ KEYBOARD_KEY_db=leftmeta
