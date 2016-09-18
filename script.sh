@@ -10,7 +10,11 @@ if [[ $XBINDKEYS_OK == "install ok installed" ]]
 then
   printf "Installing xbindkeys conf to $HOME/.xbindkeysrc\n"
   /bin/cp $source_dir/.xbindkeysrc $HOME/.xbindkeysrc
-  printf "This will fix sleep...\n"
+  printf "Fixing sleep...\n"
+  sudo /bin/cp $SOURCE/unbind_ehci /etc/initramfs-tools/scripts/init-top/unbind_ehci; printf "Copying unbind_ehci to /etc/initramfs-tools/scripts/init-top/...\n"
+  sudo chmod a+x /etc/initramfs-tools/scripts/init-top/unbind_ehci; printf "Setting up permissions...\n"
+  sudo cp $SOURCE/10_disable-ehci.rules /etc/udev/rules.d/10_disable-ehci.rules; printf "copying 10_disable-ehci.rules to /etc/udev/rules.d/...\n"
+  sudo update-initramfs -k all -u
   sudo /bin/cp /etc/default/grub /etc/default/grub.bak; printf "Creating backup of grub file to /etc/default/grub.bak...\n"
   sudo /bin/cp $source_dir/grub /etc/default/grub; printf "Copying new grub file...\n"
   sudo /usr/sbin/update-grub

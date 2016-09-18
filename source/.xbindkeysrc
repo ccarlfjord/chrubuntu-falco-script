@@ -1,5 +1,5 @@
-"xdotool keyup control+alt+BackSpace; xdotool key Delete; xdotool keydown control+alt"
-control+alt+BackSpace
+"xdotool keyup shift+BackSpace; xdotool key Delete; xdotool keydown shift"
+shift+Backspace
 "xdotool keyup alt+shift+BackSpace; xdotool key shift+Delete; xdotool keydown alt+shift"
 alt+shift+BackSpace
 "xdotool keyup alt+XF86Back; xdotool key F1; xdotool keydown alt"
