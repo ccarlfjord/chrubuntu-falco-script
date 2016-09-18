@@ -2,13 +2,11 @@
 
 Automatic script to fix annoyances when reinstalling an Ubuntu based distribution on a HP Chromebook 14 "Falco"
 
-Can probably be used on a live-cd
-
 ### What does this script do?
 
 * Fixes sleep
-* (Not Yet) Fixes touchpad after my own preferences
 * Fixes keybinds after my own preferences
+* (Not Yet) Fixes touchpad after my own preferences
 
 ### Fix touchpad
   In /usr/share/X11/xorg.conf.d/50-synaptics.conf under:
