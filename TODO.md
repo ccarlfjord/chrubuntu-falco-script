@@ -1,0 +1,2 @@
+- [ ] add support for hwdb file that fixes the search key
+- [ ] fix grub file editing  
